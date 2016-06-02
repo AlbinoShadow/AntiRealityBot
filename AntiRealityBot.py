@@ -90,9 +90,9 @@ def do_command(connection, source, target, commandline):
 
       if command == "leave":
          if nick == "Bjorn":
-            output = "fuck off bear lover"
+            output = "nope bear lover"
          elif nick != "Sp00ky":
-            output = "fuck off llama lover"
+            output = "nope llama lover"
          else:
             conn.close()
             connection.disconnect()
